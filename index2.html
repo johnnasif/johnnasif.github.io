@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<head>
+    <title>fav</title>
+</head>
+<style>
+    body {
+        background-image: url("cinema.jpg");
+        background-size: 100%;
+    }
+
+    h2 {
+        color: white;
+    }
+
+    h1 {
+        color: white;
+        text-align: center;
+    }
+
+    #result1 {
+        color: orange;
+    }
+</style>
+
+
+<body>
+    <h1>favourite films</h1>
+    <h2>
+
+        your favourite film :<span id="result1"></span>
+    </h2>
+    <h2>
+
+
+
+
+        <script>
+            document.getElementById("result1").innerHTML = localStorage.getItem("name1");
+
+        </script>
+</body>
+
+</html>

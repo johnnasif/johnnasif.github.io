@@ -1,0 +1,74 @@
+h1{
+text-align: center;
+ border-radius: 25px;
+  background: rgb(158, 30, 30);
+  padding: 20px;
+  width: 200px;
+  height:auto;
+  position: relative;
+  left:40%;
+
+}
+
+
+.p1{
+  width: 300px;
+  height: 445px;
+}
+.p2{
+  width: 300px;
+  height: 445px;
+}
+.p3{
+  width: 300px;
+  height: 445px;
+}
+.p4{
+  width: 300px;
+  height: 445px;
+}
+.p5{
+  width: 300px;
+  height: 445px;
+}
+.p6{
+  width: 300px;
+  height: 445px;
+}
+.p7{
+  width: 300px;
+  height: 445px;
+}
+.p8{
+  width: 300px;
+  height: 445px;
+}
+.p13{
+  width: 300px;
+  height: 445px;
+}
+.p10{
+  width: 300px;
+  height: 445px;
+}
+.p11{
+  width: 300px;
+  height: 445px;
+}
+.p12{
+  width: 300px;
+  height: 445px;
+}
+body{
+  background-image: url(./BGI-cinema.jpg);
+  background-size: cover;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-container > div {
+  width: 305px;
+}

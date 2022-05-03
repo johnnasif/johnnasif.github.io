@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<head>
+    <title>fav</title>
+</head>
+<script>
+    function passval() {
+
+        var film1 = document.getElementById("select1").value;
+
+        localStorage.setItem("name1", film1);
+
+    }
+</script>
+
+<style>
+    .submit {
+        background-color: #d40f7d;
+
+        border: 1px solid #d40f7d;
+        color: #fff;
+        padding: 10px 20px;
+        margin-left: 100px;
+        font-family: Arial;
+    }
+
+    #select1 {
+        margin-left: 50px;
+        margin-bottom: 20px;
+        background-color: white;
+        color: black;
+        padding: 10px 80px 10px 10px;
+        border: 3px solid;
+        border-radius: 4px;
+        font-size: larger;
+        vertical-align: middle;
+
+    }
+
+    .button {
+        margin-top: 10px;
+    }
+
+    body {
+        background-image: url("cinema.jpg");
+        background-size: 100%;
+    }
+
+    .img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .label {
+        color: white;
+        font-size: 30px;
+    }
+
+    h1 {
+        color: white;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <!-- <form action="index2.html"> -->
+    <form action="index2.html">
+        <h1>favourite</h1>
+
+
+
+        <label for="option" class="label">choose film :</label>
+        <select required name="option" id="select1">
+
+            <option value="">choose film </option>
+            <option value="the crime">the crime</option>
+            <option value="batman">batman</option>
+            <option value="johnwick3">johnwick3</option>
+            <option value="al kamen">al kamen</option>
+            <option value="undisputed">undisputed</option>
+
+        </select>
+        <br>
+        <input class="submit" type="submit" value="add to fav" name="add to fav" onclick=" passval() ">
+
+    </form>
+
+
+</body>
